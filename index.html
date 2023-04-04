@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4166e58f6f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <main>
+      <header class="toolbar">
+         <span class="logo"><i class="fa-light fa-file-binary"></i></span>
+         <nav>
+            <a href="#" onclick="showMobileMenu()">
+               <img 
+               src="./images/hamburger.svg" 
+               alt="hamburger menu"
+               class="hamburger-img" id="hamburger">
+               </a>
+            <ul class="desktop-menu">
+               <li class="portfolio"><a href="#portfolio">Portfolio</a></li>
+               <li class="about"><a href="#about">About</a></li>
+               <li class="contact"><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+         </header>
+            <section>
+               <header>
+                  <h1 class="headline">Kaweesi Matia<span class="blink">_<span>
+                  </h1>
+                  <p class="desc">
+                     I'm a Full-stack developer passionate about building innovative web applications. My skills include <span class="toolset">["HTML5", "CSS3", "JavaScript", "React/Redux", "Ruby", "PostgreSQL" and "Ruby on Rails"]</span>, and I'm eager to take on new challenges.
+                     Looking for a developer? Let's have a coffee chat! </p>
+                  <p class="connect-msg">LET'S CONNECT</p>
+               </header>
+                 <ul class="social-icons">
+                    <li><a href="https://twitter.com/kaweesimatia"  target="_blank" rel="noopener noreferrer">
+                     <i class="fa-brands fa-twitter"></i>
+                     </a></li>
+                     <li><a href="https://www.linkedin.com/in/kaweesi-matia/"  target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                        </a></li>
+                        <li><a href="https://medium.com/@matiakaweesi"  target="_blank" rel="noopener noreferrer">
+                           <i class="fa-brands fa-medium"></i>
+                           </a></li>
+                           <li><a href="https://github.com/Kaweesi-Matia"  target="_blank" rel="noopener noreferrer">
+                              <i class="fa-brands fa-github"></i>
+                              </a></li>
+                           <li>  <a href="https://wellfound.com/u/kaweesi-matia"  target="_blank" rel="noopener noreferrer">
+                              <i class="fa-brands fa-angellist"></i>
+                                </a></li>
+                 </ul>
+              </section>
+    </main>
+
+           <!-- Overlay for the hamburger menu -->
+         <div class="mobile-nav" id="mobile-menu">
+            <div class="close-icon" >
+               <a href="#" onclick="exitMobileMenu()">
+                  <img 
+                  src="./images/close.svg" 
+                  alt="hamburger close"
+                  class="close-img" id="close" >
+                  </a>
+            </div>
+            <nav class="overlay-menu" onclick="exitMobileMenu()">
+              <a href="#portfolio">
+                  <p>Portfolio</p>
+               </a>
+               <a href="#about">
+                  <p>About</p>
+               </a>
+               <a href="#contact">
+                  <p>Contact</p>
+               </a>
+            </nav>
+         </div>
+
+       <!-- Here begins the works section -->
+       <section class="works-wrapper" id="portfolio">
+       </section>
+
+      <!-- About myself section begins here -->
+      <section>
+         <div class="about-container" id="about">
+            <div class="about-section">
+               <div class="about-block1">
+                  <h1 class="about-title">About <br>Myself</h1>
+                  <p class="about-desc">
+                     I'm Kaweesi, a Full-stack developer skilled in React/Redux and Ruby on Rails. My toolset includes <span class="toolset">Git, GitHub, Heroku, Netlify, RSpec, TDD, and Chrome Dev Tools</span> for mobile and responsive development.
+                     I enjoy sharpening my skills by solving data structure and algorithm challenges. Professionally, I excel in remote pair-programming, teamwork, mentoring, and project management.
+                  </p>
+                  <p class="connect-msg">LET'S CONNECT</p>
+                  <ul class="social-icons">
+                     <li><a href="https://twitter.com/kaweesimatia"  target="_blank" rel="noopener noreferrer">
+                      <i class="fa-brands fa-twitter"></i>
+                      </a></li>
+                      <li><a href="https://www.linkedin.com/in/kaweesi-matia/"  target="_blank" rel="noopener noreferrer">
+                         <i class="fa-brands fa-linkedin"></i>
+                         </a></li>
+                         <li><a href="https://medium.com/@matiakaweesi"  target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-medium"></i>
+                            </a></li>
+                            <li><a href="https://github.com/Kaweesi-Matia"  target="_blank" rel="noopener noreferrer">
+                               <i class="fa-brands fa-github"></i>
+                               </a></li>
+                            <li>  <a href="https://wellfound.com/u/kaweesi-matia"  target="_blank" rel="noopener noreferrer">
+                               <i class="fa-brands fa-angellist"></i>
+                                 </a></li>
+                  </ul>
+                  <a href="https://docs.google.com/document/d/1IXJc9hKps5WiFQfv37Vg3zlEY-16VnBfDrFB9-i5x8k/edit?usp=sharing"  target="_blank" rel="noopener noreferrer">
+                  <button type="submit" class="resume-btn">Get my resume</button></a>
+               </div>
+               <div class="about-block2">
+                  <div class="arrowdown">
+                     <div class="languages">
+                        <p>Languages</p>
+                        <a href="#" class="arrowdown-toggle">
+                           <img src="./images/next-arrow.svg" alt="menu arrow" class="list-icon1">
+                        </a>
+                     </div>
+                     <div class="language-menu">
+                         <div class="language">
+                           <a href="#">
+                              <i class="fab fa-js fa-fade"></i>
+                           </a>
+                           <p>JavaScript</p>
+                        </div>
+                        <div class="language">
+                           <a href="#">
+                              <i class="fas fa-gem fa-fade"></i>
+                           </a>
+                           <p>Ruby</p>
+                        </div>
+                        <div class="language">
+                           <a href="#">
+                              <i class="fa-brands fa-html5 fa-fade"></i>
+                           </a>
+                           <p>HTML5</p>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div class="frameworks-arrow">
+                     <div class="languages">
+                        <p>Frameworks</p>
+                        <a href="#" class="frameworks-toggle">
+                           <img src="./images/next-arrow.svg" alt="menu arrow" class="list-icon2">
+                        </a>
+                     </div>
+                     <div class="language-menu">
+                        <div class="language">
+                           <a href="#">
+                              <i class="fa-brands fa-react fa-fade"></i>
+                           </a>
+                           <p>React</p>
+                        </div>
+                        <div class="language">
+                           <a href="#">
+                              <i class="fab fa-reacteurope fa-fade"></i>
+                           </a>
+                           <p>Redux</p>
+                        </div>
+                        <div class="language">
+                           <a href="#">
+                              <i class="fa-brands fa-bootstrap fa-fade"></i>
+                           </a>
+                           <p>Bootstrap</p>
+                        </div>
+                        <div class="language">
+                           <a href="#">
+                              <i class="fas fa-subway fa-fade"></i>
+                           </a>
+                           <p>Rails</p>
+                        </div>
+                        <div class="language">
+                           <a href="#">
+                              <i class="fa-brands fa-css3-alt fa-fade"></i>
+                           </a>
+                           <p>CSS3</p>
+                        </div>
+                     </div>
+                  </div>
+                     <div class="dropdown">
+                        <div class="skills">
+                           <p>Skills</p>
+                           <a href="#" class="dropdown-toggle">
+                              <img src="./images/next-arrow.svg" alt="next menu" class="list-icon">
+                           </a>
+                      </div> 
+                      <ul class="dropdown-menu">
+                        <li>Web Development</li>
+                        <li>Front-End: <span class="toolset">["HTML5", "CSS3", "JavaScript", "React", "Redux"]</span></li>
+                        <li>Back-End: <span class="toolset">["Ruby"," Ruby on Rails", "PostgreSQL"]</span></li>
+                        <li>Full-Stack</li>
+                        <li>Teamwork</li>
+                        <li>Remote Pair-Programming</li>
+                        <li>Mentoring</li>
+                      </ul>                     
+                  </div>
+               </div>
+            </div>
+         </div>
+         </section>
+
+      <!--Here begins the Contact form-->
+   <footer>
+      <div class="contact-wrapper" id="contact">
+         <div class="contact-section">
+            <h1 class="contact-title">Contact me</h1>
+            <p class="contact-desc">
+               If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it. 
+            </p>
+            <form  action="https://formspree.io/f/xbjbldyw"  method="post" id="contact-form">
+               <div class="form-items">
+                  <label for="name">
+                     <input type="text" id="name" placeholder="User name" maxlength="30" required>
+                  </label>
+                  <label for="mail">
+                     <input type="email" id="mail" placeholder="User email Address" required>
+                  </label>
+                  <label for="message">
+                     <textarea name="user_msg" id="message" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
+                  </label>
+                  <span class="error-msg"></span>
+                  <button type="submit" class="contact-btn">Get in Touch</button>
+               </div>
+            </form>
+         </div>
+         <hr class="end-line">
+         </div>
+      </footer>
+
+      <!-- Here begins the popup window -->
+      <div class="popup-container" id="popup">
+         </div>
+         
+ <script src="./localStorage.js"></script>        
+<script src="./script.js"></script>
+</body>
+</html>
