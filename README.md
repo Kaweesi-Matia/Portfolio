@@ -12,7 +12,7 @@
 - Linters: webhint, stylelint
 
 ## Live Demo
-Checkout my portfolio [Live Demo](https://okechukwu-muokwugwo.github.io/Portfolio)
+Checkout my portfolio [Live Demo](https://gilded-crepe-2014f7.netlify.app)
 
 ## Getting Started
 
@@ -25,18 +25,18 @@ To get a local copy up and running follow these simple example steps.
 - Linters
 
 ### Setup
-clone <code>git@github.com:Okechukwu-muokwugwo/Okechukwu-Portfolio.git</code> to local machine
+clone <code>https://github.com/Kaweesi-Matia/Portfolio.git</code> to local machine
 
 ### Usage
 Then open it in web browser
 
 ## Author
 
-👤 **Author**
+👤 **Kaweesi Matia**
 
-- GitHub: [GitHub](https://github.com/Okechukwu-muokwugwo)
-- Twitter: [Twitter](https://twitter.com/excel4eva)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/okeimuokwugwo)
+- GitHub: [@Kaweesi-Matia](https://github.com/Kaweesi-Matia)
+- Twitter: [@kaweesimatia](https://twitter.com/kaweesimatia)
+- LinkedIn: [Kaweesi Matia](https://www.linkedin.com/in/kaweesi-matia/)
 
 
 ## 🤝 Contributing
