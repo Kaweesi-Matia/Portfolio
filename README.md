@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Amon-Cofie's Portfolio<a name="about-project"></a>
+# 📖 Kaweesi's Portfolio<a name="about-project"></a>
 
 This project is my porfolio design with which I talk about myself and my professional experience in programming. It features some of my personal projects and numerous means to get in touch with me.
 
@@ -67,7 +67,7 @@ This project is my porfolio design with which I talk about myself and my profess
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://amon-cofie-portfolio.netlify.app/)
+- [Live Demo Link](https://thunderous-dolphin-e7afb8.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,11 +141,11 @@ This project is deployed live on netlify
 ## 👥 Author <a name="authors"></a>
 
 
-👤 **David Amon-Cofie**
+👤 **Kaweesi Matia**
 
-- GitHub: [@amon-cofie](https://github.com/amon-cofie)
-- Twitter: [@amon_cofie](https://twitter.com/amon_cofie)
-- LinkedIn: [David Amon-Cofie](https://www.linkedin.com/in/amon-cofie/)
+- GitHub: [@Kaweesi-Matia](https://github.com/Kaweesi-Matia)
+- Twitter: [@kaweesimatia](https://twitter.com/kaweesimatia)
+- LinkedIn: [Kaweesi Matia](https://www.linkedin.com/in/kaweesi-matia/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +166,7 @@ This project is deployed live on netlify
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/amon-cofie/amon-cofie-portfolio/issues).
+Feel free to check the [issues page](https://github.com/Kaweesi-Matia/Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
