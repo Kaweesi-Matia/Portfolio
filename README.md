@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it -->
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="images/logo/logo_white.gif" alt="code cane logo" width="140"  height="auto" />
   <br/>
 
