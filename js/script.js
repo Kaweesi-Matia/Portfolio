@@ -57,7 +57,7 @@ const typed = new Typed('.multiple-text', {
   strings: [
     'Full-Stack Software Developer',
     'Tech Enthusiast',
-    'Health and Fitness Savvy',
+    'Telecommunications Engineer',
   ],
   typeSpeed: 50,
   backSpeed: 10,
@@ -134,7 +134,7 @@ const projectsArr = [
   {
     image: 'images/project_screen_shots/awesome_books_2.png',
     title: 'Awesome Books',
-    githubLink: 'https://github.com/Kaweesi-Matia/Awesome-Books',
+    githubLink: 'https://github.com/amon-cofie/Awesome-books-ES6',
     liveLink: 'https://amon-cofie.github.io/Awesome-books-ES6/',
     details:
       'This project showcases a Single Page Application featuring a medium-fidelity wireframe of a book management app that stores books that can be added and deleted. It was developed primarily using JavaScript and strict ES6 features.',
@@ -150,7 +150,7 @@ const projectsArr = [
   {
     image: 'images/project_screen_shots/to_do_list_2.png',
     title: 'To-Do-List',
-    githubLink: 'https://github.com/Kaweesi-Matia/To-do-list_APP',
+    githubLink: 'https://github.com/amon-cofie/To-Do-List',
     liveLink: 'https://amon-cofie.github.io/To-Do-List/',
     details:
       'This project features a Single Page Application featuring a medium fidelity wireframe of a to-do-list app that stores tasks that a user adds. These tasks can be marked as completed or incomplete. They can also be edited or deleted. This project is built mainly with JavaScript and strict ES6 features and bundled with Webpack.',
@@ -158,7 +158,7 @@ const projectsArr = [
   {
     image: 'images/project_screen_shots/bmen_conference_2.png',
     title: 'BMEN 2022',
-    githubLink: 'https://github.com/Kaweesi-Matia/capstone_1',
+    githubLink: 'https://github.com/amon-cofie/first-capstone-project',
     liveLink: 'https://amon-cofie.github.io/first-capstone-project/',
     details: 'This project features a two-page website for a pretend biomedical engineering conference. Inspiration for this project was obtained from Cindy Shin\'s Behance design of a website for a Creative Commons Summit set to happen in October 2022. It is built with HTML, CSS, and JavaScript.',
   },
@@ -173,7 +173,7 @@ const projectsArr = [
   {
     image: 'images/project_screen_shots/leaderboard_2.png',
     title: 'Leaderboard',
-    githubLink: 'https://github.com/Kaweesi-Matia/Leader_Board',
+    githubLink: 'https://github.com/amon-cofie/leaderboard-project',
     liveLink: 'https://amon-cofie.github.io/leaderboard-project/dist/',
     details:
       'This project showcases a JavaScript web app that stores the high scores for your games and the players that had those scores. It lists the scores in descending order, revealing the player with the highest score. It is bundled with Webpack.',

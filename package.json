@@ -1,5 +1,5 @@
 {
-  "name": "amon-cofie-portfolio",
+  "name": "Portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amon-cofie/amon-cofie-portfolio.git"
+    "url": "git+https://github.com/Kaweesi-Matia/Portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amon-cofie/amon-cofie-portfolio/issues"
+    "url": "https://github.com/Kaweesi-Matia/Portfolio/issues"
   },
-  "homepage": "https://github.com/amon-cofie/amon-cofie-portfolio#readme",
+  "homepage": "https://github.com/Kaweesi-Matia/Portfolio#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
-    "hint": "^7.1.8",
+    "hint": "^7.1.7",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
