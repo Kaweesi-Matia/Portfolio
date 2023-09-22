@@ -132,51 +132,51 @@ const popUpMenu = (project) => {
 /* Render projects dynamically */
 const projectsArr = [
   {
-    image: 'images/project_screen_shots/awesome_books_2.png',
+    image: 'images/project_screen_shots/awesome-books.png',
     title: 'Awesome Books',
-    githubLink: 'https://github.com/amon-cofie/Awesome-books-ES6',
-    liveLink: 'https://amon-cofie.github.io/Awesome-books-ES6/',
+    githubLink: 'https://github.com/Kaweesi-Matia/awesome_books-es6',
+    liveLink: 'https://kaweesi-matia.github.io/awesome_books-es6/',
     details:
-      'This project showcases a Single Page Application featuring a medium-fidelity wireframe of a book management app that stores books that can be added and deleted. It was developed primarily using JavaScript and strict ES6 features.',
+      'Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you manage data using JavaScript.',
   },
   {
-    image: 'images/project_screen_shots/spend_right_2.png',
-    title: 'Spend Right',
-    githubLink: 'https://github.com/amon-cofie/spend-right-budget-app',
-    liveLink: 'https://spend-right.onrender.com/',
+    image: 'images/project_screen_shots/math-magicians.png',
+    title: 'Math Magicians',
+    githubLink: 'https://github.com/Kaweesi-Matia/math-magicians',
+    liveLink: 'https://636a5217b540c60864499f46--voluble-kringle-83abf2.netlify.app/calculator',
     details:
-      'Spend Right is a full stack ruby on rails web application on a PostgreSQL database, built to manage your finances by grouping your expenses or transactions into categories and helping you visualize how much you are spending and where you are spending the most amount of money.',
+      'Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.',
   },
   {
-    image: 'images/project_screen_shots/to_do_list_2.png',
-    title: 'To-Do-List',
-    githubLink: 'https://github.com/amon-cofie/To-Do-List',
-    liveLink: 'https://amon-cofie.github.io/To-Do-List/',
+    image: 'images/project_screen_shots/space-travellers-hub.png',
+    title: 'Space-Travellers-Hub',
+    githubLink: 'https://github.com/Kaweesi-Matia/space-travellers-hub',
+    liveLink: 'https://golden-pie-f605f6.netlify.app/',
     details:
-      'This project features a Single Page Application featuring a medium fidelity wireframe of a to-do-list app that stores tasks that a user adds. These tasks can be marked as completed or incomplete. They can also be edited or deleted. This project is built mainly with JavaScript and strict ES6 features and bundled with Webpack.',
+      'In this react app, i used the real live data from the SpaceX API. This web application is for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
   },
   {
-    image: 'images/project_screen_shots/bmen_conference_2.png',
-    title: 'BMEN 2022',
-    githubLink: 'https://github.com/amon-cofie/first-capstone-project',
-    liveLink: 'https://amon-cofie.github.io/first-capstone-project/',
-    details: 'This project features a two-page website for a pretend biomedical engineering conference. Inspiration for this project was obtained from Cindy Shin\'s Behance design of a website for a Creative Commons Summit set to happen in October 2022. It is built with HTML, CSS, and JavaScript.',
+    image: 'images/project_screen_shots/leaderboard.png',
+    title: 'LeaderBoard',
+    githubLink: 'https://github.com/Kaweesi-Matia/Leader_Board',
+    liveLink: 'https://dazzling-tiramisu-d093d8.netlify.app/',
+    details: 'In this project, I set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
   },
   {
-    image: 'images/project_screen_shots/air_pollution_tracker_1.png',
-    title: 'AQI Tracker',
-    githubLink: 'https://github.com/amon-cofie/Air-Pollution-Tracking-App',
-    liveLink: 'https://airpollutiontracker.netlify.app/',
+    image: 'images/project_screen_shots/book-store.png',
+    title: 'BookStore',
+    githubLink: 'https://github.com/Kaweesi-Matia/book-store-react_redux',
+    liveLink: 'https://gentle-fudge-ee2e87.netlify.app/',
     details:
-      'This project showcases a simple Single Page Application that tracks current air pollution data in any city in the world. It gives hourly-average data on levels of concentration of various pollutes including Carbon Mono-Oxide, Ozone, PM25, and PM10. It is useful for checking the air quality in your local city or a city you would like to visit.',
+      'The Bookstore is a website that allows you to: Display a list of books. Add a book. Remove a selected book. This application will be built with React and Redux. The website will have two sub-pages: "Books" and "Categories.',
   },
   {
-    image: 'images/project_screen_shots/leaderboard_2.png',
-    title: 'Leaderboard',
-    githubLink: 'https://github.com/amon-cofie/leaderboard-project',
-    liveLink: 'https://amon-cofie.github.io/leaderboard-project/dist/',
+    image: 'images/project_screen_shots/metrics-app.png',
+    title: 'stock-exchange metrics app',
+    githubLink: 'https://github.com/Kaweesi-Matia/stock-exchange_metrics-app',
+    liveLink: 'https://stock-exchange-metrics-app.vercel.app/',
     details:
-      'This project showcases a JavaScript web app that stores the high scores for your games and the players that had those scores. It lists the scores in descending order, revealing the player with the highest score. It is bundled with Webpack.',
+      'Metrics-Web-App is a mobile web application to that is used to check a list of metrics (numeric values) that will be created by making use of React and Redux and Data from the ACNH API.',
   },
 ];
 
